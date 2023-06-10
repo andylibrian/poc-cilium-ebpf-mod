@@ -10,3 +10,7 @@ func GetEbpfObject() *entryObjects {
 
 	return &bpfObj
 }
+
+type EntryEventData struct {
+	entryEventData
+}
